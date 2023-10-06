@@ -1,0 +1,10 @@
+{
+	"alumnado": [
+		{	"nombre":"Nombre",
+			"mac": "xx:xx:xx:xx:xx:xx",
+			"ip": "W.X.Y.Z"
+		}
+
+	]
+}
+
