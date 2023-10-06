@@ -34,7 +34,7 @@ with open("alumnado.json", "r") as j:
     fichero = json.load(j)
 
 clave = getpass('Clave: ')
-comando = 'echo '+clave+' | sudo -S apt update && sudo apt install -y python3-tk'
+comando = 'echo '+clave+' | sudo -S apt update && sudo apt install -y pip'
 
 #comando = 'echo '+clave+' | sudo -S apt update && sudo apt install -y pip && sudo apt install -y virtualenvwrapper'
 #comando +=' && sudo cp /usr/share/virtualenvwrapper/virtualenvwrapper.sh /usr/local/bin/'
